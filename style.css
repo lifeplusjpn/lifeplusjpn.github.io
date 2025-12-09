@@ -376,6 +376,14 @@ ol {
   color: var(--color-white);
 }
 
+.target.grouphome {
+  background: linear-gradient(
+    135deg,
+    var(--color-secondary-light) 0%,
+    var(--color-secondary) 100%
+  );
+}
+
 .target .section-title {
   color: var(--color-white);
 }
