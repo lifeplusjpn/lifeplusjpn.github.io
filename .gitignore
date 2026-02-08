@@ -65,3 +65,4 @@ build/
 # 一時ファイル
 *.tmp
 *.temp
+docs/
