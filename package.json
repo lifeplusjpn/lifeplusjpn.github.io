@@ -8,6 +8,7 @@
     "test:html": "html-validate index.html",
     "lint:css": "stylelint \"**/*.css\" --ignore-pattern node_modules",
     "lint:js": "eslint \"**/*.js\" --ignore-pattern node_modules --ignore-pattern jest.config.js",
+    "test:serve": "jest tests/serve.test.js",
     "test:all": "npm run test:html && npm run lint:css && npm run lint:js && npm test"
   },
   "devDependencies": {
