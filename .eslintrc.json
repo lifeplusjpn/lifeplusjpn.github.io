@@ -1,0 +1,31 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-undef": "error",
+    "no-console": "off",
+    "eqeqeq": "warn",
+    "no-var": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["tests/**/*.js"],
+      "env": {
+        "node": true,
+        "jest": true
+      }
+    },
+    {
+      "files": ["jest.config.js"],
+      "env": {
+        "node": true
+      }
+    }
+  ]
+}
