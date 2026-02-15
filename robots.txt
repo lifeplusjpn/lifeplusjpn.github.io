@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lifeplus-kushiro.com/sitemap.xml
